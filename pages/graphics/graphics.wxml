@@ -1,0 +1,72 @@
+<!--pages/graphics/graphics.wxml-->
+<view>
+
+  <view class='header'>
+    <text class='header-title'>三甲医院、正畸正颌专家、经验丰富</text>
+  </view>
+
+  <view class="preface">
+    <image class='image' src='../../assets/graphics/image1.png'></image>
+  </view>
+
+  <view class='item'>
+    <view class='title-line'>
+      <text class='text'>智齿一定要拔么？</text>
+    </view>
+    <view class='content-line'>
+      80%的智齿一定要拔除。原因如下：
+    </view>
+    <view class='sub-title'>
+      <text class='text'>智齿可以引起牙根吸收，废掉你的第二磨牙。</text>
+      <image class='image' src='../../assets/graphics/image2.png'></image>
+    </view>
+    <view class='sub-title'>
+      <text class='text'>智齿牙骨质增生，可以引起牙根肥大，越晚可能越不好拔。</text>
+      <image class='image' src='../../assets/graphics/image3.png'></image>
+    </view>
+    <view class='sub-title'>
+      <text class='text'>智齿可以引起颌骨的萌出性囊肿，破坏颌骨，严重情况可能需要截骨。</text>
+      <image class='image' src='../../assets/graphics/image4.png'></image>
+    </view>
+    <view class='sub-title'>
+      <text class='text'>智齿变成残根残冠，引起慢性根尖周炎，进而引起颌骨骨髓炎，这个可是需要住院手术，刮骨疗伤的。</text>
+      <image class='image' src='../../assets/graphics/image5.png'></image>
+    </view>
+    <view class='sub-title'>
+      <text class='text'>智齿会引起邻牙牙槽骨的吸收，正常邻牙可能过早松动脱落。</text>
+      <image class='image' src='../../assets/graphics/image6.png'></image>
+    </view>
+    <view class='sub-title'>
+      <text class='text'>智齿造成的卫生死角难清理，容易引起邻牙的龋坏。</text>
+      <image class='image' src='../../assets/graphics/image7.png'></image>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='title-line'>
+      <text class='text'>智齿为什么一定会发炎？</text>
+    </view>
+    <view class='content-line'>
+      智齿阻生，龈瓣与智齿冠体部之间形成盲袋，很方便藏污纳垢，条件合适就肿起来了，形成了冠周炎。肿的时候，不可以拔牙，最好是去医院上消炎药，消肿了再拔牙。
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='title-line'>
+      <text class='text'>智齿怎么拔？</text>
+    </view>
+    <view class='content-line'>
+      智齿阻生，龈瓣与智齿冠体部之间形成盲袋，很方便藏污纳垢，条件合适就肿起来了，形成了冠周炎。肿的时候，不可以拔牙，最好是去医院上消炎药，消肿了再拔牙。
+    </view>
+  </view> 
+
+  <view class='item'>
+    <view class='title-line'>
+      <text class='text'>拔牙后会有哪些不适？</text>
+    </view>
+    <view class='content-line'>
+      智齿阻生，龈瓣与智齿冠体部之间形成盲袋，很方便藏污纳垢，条件合适就肿起来了，形成了冠周炎。肿的时候，不可以拔牙，最好是去医院上消炎药，消肿了再拔牙。
+    </view>
+  </view>
+
+</view>

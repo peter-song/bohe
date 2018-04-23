@@ -1,0 +1,97 @@
+<!--pages/detail/detail.wxml-->
+<view wx:if="{{!loading}}" style='padding-bottom: 32px'>
+  <view class='container box'>
+    <view class='detail-header'>
+      <image class='avatar big' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'></image>
+      <view class='doctor-name'>{{data.name}}</view>
+      <view class='doctor-title'>{{data.institution}} | {{data.education}} | 从业{{data.yearService}}年</view>
+    </view>
+    <view class='doctor-sub'>
+      <text>{{data.caseTitle}}：约</text>
+      <text class='num'>{{data.caseNum}}</text>
+      <text>例</text>
+    </view>
+    <view class='doctor-sub'>
+      <text>复杂案例：约</text>
+      <text class='num'>{{data.hardCaseNum}}</text>
+      <text>例</text>
+    </view>
+    <view class='auth'>
+      <view class='auth-item'>
+        <image class='auth-image' src='../../assets/auth.png'></image>
+        <view>真实身份认证</view>
+      </view>
+      <view class='auth-item'>
+        <image class='auth-image' src='../../assets/star.png'></image>
+        <view>执照资格认证</view>
+      </view>
+      <view class='auth-item'>
+        <image class='auth-image' src='../../assets/user.png'></image>
+        <view>医师资格认证</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='box detail-info'>
+    <view class='title-line'>简介与擅长</view>
+    <view class='skill'>{{data.skilledin}}</view>
+    <view class='introduce'>{{data.introduce}}</view>
+  </view>
+
+  <view class='box case'>
+    <view class='title-line'>典型案例</view>
+    <view class='hope' wx:if="{{!caseData}}">
+      待完善
+    </view>
+    <view wx:if="{{caseData}}">
+      <view wx:for="{{caseData.cases}}" wx:key="unique" class='case-box'>
+        <view class='avatar-box'>
+          <image mode='aspectFit' src='{{item.avatar}}' class='case-avatar'></image>
+        </view>
+        <view class='case-content'>
+          <view class='name'>{{item.name}}
+            <text class='history-num'>病历号：{{item.history_num}}</text>
+          </view>
+          <view class='case-des'>{{item.description}}</view>
+          <view wx:for="{{item.diff}}" wx:for-item='diff' wx:key="unique">
+            <view class='case-diff'>
+              <view class='diff-img'>
+                <image class='img' mode='widthFix' src='{{diff.before}}'></image>
+                <text>矫正前</text>
+              </view>
+              <view class='diff-img'>
+                <image class='img' mode='widthFix' src='{{diff.after}}'></image>
+                <text>矫正后</text>
+              </view>
+            </view>
+          </view>
+
+          <view class='case-point case-border'>
+            正畸周期：{{item.date}}
+          </view>
+          <view class='case-point'>
+            治疗方案：{{item.plan}}
+          </view>
+          <view class='case-point'>
+            正畸难点：{{item.hard}}
+          </view>
+          <view class='case-point '>
+            <text>正畸难度：</text>
+            <image mode='widthFix' class='star-level' src='../../assets/{{item.star}}star.jpg'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='richard-box'>
+      <view>更多案例详询
+        <text class='richard'>医生助理 Richard</text>
+      </view>
+      <image class='richard-code' src='../../assets/richrad.jpg'></image>
+    </view>
+  </view>
+
+  <view class='button-box'>
+    <button session-from='矫正正畸正颌-{{data.name}}' open-type="contact" class='button'>立即咨询</button>
+  </view>
+</view>

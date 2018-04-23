@@ -1,0 +1,22 @@
+<!--pages/doctors/doctors.wxml-->
+<view wx:if="{{!loading}}">
+  <view class='list-box'>
+    <navigator url="../detail/detail?id={{item.id}}" wx:for="{{list}}" wx:key="unique" class='doctor-item'>
+      <image class='avatar' mode='scaleToFill' src='{{item.photo}}'></image>
+      <view class='media-body'>
+        <view>
+          {{item.name}}
+          <text class='work-time'>{{item.yearService}}年</text>
+        </view>
+        <view class='sub-title'>{{item.institution}} | {{item.education}}</view>
+        <view class='case-text'>{{item.caseTitle}}：
+          <text class='num'>{{item.caseNum}}</text>例</view>
+        <view class='case-text'>复杂案例：
+          <text class='num'>{{item.hardCaseNum}}</text>例</view>
+        <view class='case-button'>
+          <button class='text' catchtap='_consult' id='{{item.id}}'>咨询</button>
+        </view>  
+      </view>
+    </navigator>
+  </view>
+</view>

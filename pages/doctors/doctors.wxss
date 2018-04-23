@@ -1,0 +1,68 @@
+/* pages/doctors/doctors.wxss */
+
+.list-box {
+  height: calc(100vh-30px);
+  width: 100%;
+  background-color: #fff;
+}
+
+.button-box {
+  margin: 0px 0 56px 0;
+  width: 100%;
+}
+
+.button {
+  background-color: #585859;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 0;
+  margin: 16px;
+}
+
+.doctor-item {
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.media-body {
+  flex: 1;
+  margin-left: 16px;
+}
+
+.work-time {
+  font-size: 14px;
+  color: #9c9c9c;
+  margin-left: 8px;
+}
+
+.sub-title {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.case-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  color: #818181;
+}
+
+.case-text .num {
+  color: #f27f75;
+  padding: 0 2px;
+}
+
+.case-button {
+  margin-top: 4px;
+}
+
+.case-button .text {
+  background: rgb(20, 156, 125);
+  color: rgb(255, 255, 255);
+  padding: 0px 16px;
+  border-radius: 50px;
+  font-size: 12px;
+  display: inline-flex;
+}

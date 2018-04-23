@@ -1,0 +1,224 @@
+/* pages/detail/detail.wxss */
+
+.avatar.big {
+  width: 100px;
+  height: 100px;
+}
+
+.detail-header {
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+.detail-header .doctor-name {
+  color: #333;
+  padding: 16px 0 8px 0;
+}
+
+.detail-header .avatar, .detail-header .doctor-name {
+  flex: 1;
+}
+
+.doctor-title {
+  color: #444;
+  font-size: 14px;
+}
+
+.doctor-sub {
+  text-align: center;
+  font-size: 13px;
+  color: #5a5a5a;
+  font-weight: normal;
+  padding: 4px;
+}
+
+.doctor-sub .num {
+  color: #f27f75;
+  padding: 0 2px;
+}
+
+.auth, .case-diff {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.auth {
+  padding-top: 0;
+}
+
+.auth-image {
+  width: 75px;
+  height: 75px;
+}
+
+.auth-item:last-child .auth-image {
+  position: relative;
+  top: 5px;
+}
+
+.auth-item {
+  flex: 1;
+  font-size: 12px;
+  font-weight: 400;
+  color: #255b5a;
+  padding: 0 8px;
+}
+
+.detail-info, .case {
+  padding: 8px;
+}
+
+.title-line {
+  border-left: 4px solid #517a79;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.skill {
+  font-size: 13px;
+  color: #cbcbcb;
+  background-color: #f4f4f4;
+  padding: 4px 8px;
+  margin: 12px 0 8px 0;
+  border-radius: 1px;
+}
+
+.introduce {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 2.2;
+  text-indent: 2em;
+  color: #666;
+  margin: 0 0 8px 0;
+  padding: 0 8px;
+}
+
+.case-box {
+  display: flex;
+  margin-top: 8px;
+}
+
+.button-box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.hope {
+  text-align: center;
+  color: #999;
+  padding: 24px;
+}
+
+.button {
+  background-color: #4f7878;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 0;
+  border-radius: 0;
+}
+
+.case-content {
+  flex: 1;
+  padding: 12px 0;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 12px;
+  position: relative;
+  border-bottom: 1px solid #eee;
+  line-height: 2;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+
+.history-num {
+  position: absolute;
+  right: 0;
+  color: #999;
+}
+
+.case-des {
+  font-size: 13px;
+  color: #777;
+  line-height: 2;
+}
+
+.case-diff {
+  margin-bottom: 0px;
+}
+
+.diff-img {
+  flex: 1;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.case-border {
+  border-top: 1px solid #eee;
+  padding-top: 24px;
+}
+
+.diff-img .img {
+  width: 100%;
+}
+
+.case-point {
+  font-size: 13px;
+  color: #878787;
+  margin-bottom: 8px;
+  line-height: 1.6;
+  position: relative;
+}
+
+.avatar-box {
+  margin-right: 12px;
+}
+
+.case-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+
+.star-level {
+  width: 90px;
+  position: absolute;
+  top: -3px;
+}
+
+.richard-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 24px;
+  padding-bottom: 18px;
+  flex-direction: column;
+}
+
+.richard {
+  color: #4f7878;
+}
+
+.richard-code {
+  width: 80px;
+  height: 80px;
+  margin-top: 12px;
+}
