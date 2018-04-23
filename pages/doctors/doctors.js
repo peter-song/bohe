@@ -35,6 +35,7 @@ Page({
     wx.showLoading({
       title: '加载中...',
     });
+    console.log(`${config.api}/doctor/doctorlist?num=999`);
     wx.request({
       url: `${config.api}/doctor/doctorlist?num=999`,
       success: (res) => {

@@ -9,13 +9,16 @@
           <text class='work-time'>{{item.yearService}}年</text>
         </view>
         <view class='sub-title'>{{item.institution}} | {{item.education}}</view>
-        <view class='case-text'>{{item.caseTitle}}：
-          <text class='num'>{{item.caseNum}}</text>例</view>
+        <!-- <view class='case-text'>{{item.caseTitle}}：
+          <text class='num'>{{item.caseNum}}</text>例
+        </view>
         <view class='case-text'>复杂案例：
-          <text class='num'>{{item.hardCaseNum}}</text>例</view>
+          <text class='num'>{{item.hardCaseNum}}</text>例
+        </view> -->
+        <view class='sub-title'>从业 {{item.yearService}} 年</view>
         <view class='case-button'>
           <button class='text' catchtap='_consult' id='{{item.id}}'>咨询</button>
-        </view>  
+        </view>
       </view>
     </navigator>
   </view>

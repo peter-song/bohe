@@ -9,11 +9,12 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#4f7878",
+    "navigationBarBackgroundColor": "#065C5A",
     "navigationBarTitleText": "薄荷口腔-智齿",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "selectedColor": "#065C5A",
     "list": [
       {
         "pagePath": "pages/graphics/graphics",
