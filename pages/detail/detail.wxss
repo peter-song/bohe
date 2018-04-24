@@ -5,6 +5,17 @@
   height: 100px;
 }
 
+.v {
+  position: absolute;
+  background: #065c5a;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  bottom:0;
+  right:0;
+}
+
 .detail-header {
   padding: 8px 0;
   display: flex;

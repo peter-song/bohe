@@ -6,7 +6,7 @@
       <view class='media-body'>
         <view>
           {{item.name}}
-          <text class='work-time'>{{item.yearService}}年</text>
+          <!-- <text class='work-time'>{{item.yearService}}年</text> -->
         </view>
         <view class='sub-title'>{{item.institution}} | {{item.education}}</view>
         <!-- <view class='case-text'>{{item.caseTitle}}：

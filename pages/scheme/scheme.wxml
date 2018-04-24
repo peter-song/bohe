@@ -1,2 +1,203 @@
 <!--pages/scheme/scheme.wxml-->
-<text>pages/scheme/scheme.wxml</text>
+<view class='root'>
+
+  <view class='header'>
+    <text class='title'>智齿解决方案</text>
+    <text class='line'></text>
+  </view>
+
+  <view class='box'>
+    <view class='title'>关于我们</view>
+    <view class='text'>薄荷口腔是中国首家纯三甲医院口腔医师多点执业的预约和管理平台。平台荟聚北大口腔等权威三甲口腔医院优质口腔专科医生近千名。并精选高端口腔诊所深度合作，门店覆盖北京热门商圈，同时自建管理系统——微信端为用户提供咨询实时回复、快捷预约、精准匹配适合的口腔专业医生，云端电子图文病历永久储存；免挂号、无需排队到店即诊，全程陪诊，诊后贴心呵护，私人口腔健康管家闭环式服务。</view>
+  </view>
+
+  <view class='box'>
+    
+    <view class='title'>优质医疗资源</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>最顶尖空腔外科医生</text>
+        <text class='text'>平均智齿拔除</text>
+        <text class='text'>5000-10000例以上</text>
+      </view>
+      <view class='item'>
+        <text class='text'>普通牙医</text>
+        <text class='text'>平均仅有</text>
+        <text class='text'>1000-3000例</text>
+      </view>
+    </view>
+
+  </view>
+
+   <view class='box'>
+    
+    <view class='title'>个性化手术设计</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>最大限度降低手术创伤</text>
+        <text class='text'>手术时间短</text>
+      </view>
+      <view class='item'>
+        <text class='text'>手术创伤大</text>
+        <text class='text'>手术时间长</text>
+      </view>
+    </view>
+
+  </view>
+
+   <view class='box'>
+    
+    <view class='title'>最有抗生素使用方案</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>术前30分钟</text>
+        <text class='text'>服用抗生素</text>
+      </view>
+      <view class='item'>
+        <text class='text'>无医学证据支持</text>
+        <text class='text'>滥用抗生素</text>
+      </view>
+    </view>
+
+  </view>
+
+   <view class='box'>
+    
+    <view class='title'>精准量化手术时间</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>一般难度3分钟内拔除</text>
+        <text class='text'>中等难度20分钟内拔除</text>
+        <text class='text'>复杂难度45分钟内拔除</text>
+      </view>
+      <view class='item'>
+        <text class='text'>一般难度15分钟内难拔除</text>
+        <text class='text'>中等难度60分钟内难拔除</text>
+        <text class='text'>复杂难度120分钟内难拔除</text>
+      </view>
+    </view>
+
+  </view>
+
+   <view class='box'>
+    
+    <view class='title'>术后护理 专业及时</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>及时冷敷缓解肿胀</text>
+      </view>
+      <view class='item'>
+        <text class='text'>简单止血处理</text>
+      </view>
+    </view>
+
+  </view>
+
+   <view class='box'>
+    
+    <view class='title'>私人管家温馨陪伴</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>7*24小时在线咨询</text>
+        <text class='text'>全程陪诊</text>
+      </view>
+      <view class='item'>
+        <view><text class='text'>肚子就诊</text></view>
+      </view>
+    </view>
+
+  </view>
+
+   <view class='box'>
+    
+    <view class='title'>智齿退休也精彩</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>原生保存或者</text>
+        <text class='text'>高端人牙珠宝定制</text>
+      </view>
+      <view class='item'>
+        <view><text class='text'>视若鸡肋随意处理</text></view>  
+      </view>
+    </view>
+
+  </view>
+
+</view>

@@ -2,11 +2,14 @@
 <view wx:if="{{!loading}}" style='padding-bottom: 32px'>
   <view class='container box'>
     <view class='detail-header'>
-      <image class='avatar big' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'></image>
+      <view style='position: relative;'>
+        <image class='avatar big' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'></image>
+        <text class='v'>V</text>
+      </view>
       <view class='doctor-name'>{{data.name}}</view>
       <view class='doctor-title'>{{data.institution}} | {{data.education}} | 从业{{data.yearService}}年</view>
     </view>
-    <view class='doctor-sub'>
+    <!-- <view class='doctor-sub'>
       <text>{{data.caseTitle}}：约</text>
       <text class='num'>{{data.caseNum}}</text>
       <text>例</text>
@@ -15,7 +18,7 @@
       <text>复杂案例：约</text>
       <text class='num'>{{data.hardCaseNum}}</text>
       <text>例</text>
-    </view>
+    </view> -->
     <view class='auth'>
       <view class='auth-item'>
         <image class='auth-image' src='../../assets/auth.png'></image>

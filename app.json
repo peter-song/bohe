@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/graphics/graphics",
+    "pages/scheme/scheme",
     "pages/doctors/doctors",
+    "pages/graphics/graphics",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/scheme/scheme",
     "pages/detail/detail"
   ],
   "window": {

@@ -1,1 +1,75 @@
 /* pages/scheme/scheme.wxss */
+.root {
+  padding: 16px;
+}
+
+.header {
+  text-align: center;
+  padding-top: 16px;
+}
+
+.header .title {
+  font-size: 22px;
+}
+
+.header .line {
+  border: 2px solid #065c5a;
+  display: block;
+  width: 80px;
+  margin: 8px auto;
+}
+
+.box {
+  background: #fff;
+  margin-top: 16px;
+  padding: 0 16px 16px;
+  border-radius: 10px;
+}
+
+.box .title {
+  color: #065c5a;
+  font-size: 14px;
+  text-align: center;
+  padding: 16px;
+}
+
+.box .text {
+  color: #666;
+  font-size: 12px;
+  display: block;
+}
+
+.box .imageBox {
+  display: flex;
+  align-items: center;
+}
+
+.box .imageBox .item {
+  flex: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.box .image {
+  width: 100px;
+  height: 80px;
+}
+
+.box .line {
+  height: 60px;
+  width: 1px;
+  background: #666;
+}
+
+.box .contentBox {
+  display: flex;
+}
+
+.box .contentBox .item {
+  flex: 1;
+  text-align: center;
+  padding: 8px 4px 4px;
+  font-size: 14px;
+  color: #666;
+}
