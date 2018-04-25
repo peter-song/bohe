@@ -41,7 +41,7 @@
     <view class='introduce'>{{data.introduce}}</view>
   </view>
 
-  <view class='box case'>
+  <!-- <view class='box case'>
     <view class='title-line'>典型案例</view>
     <view class='hope' wx:if="{{!caseData}}">
       待完善
@@ -92,7 +92,7 @@
       </view>
       <image class='richard-code' src='../../assets/richrad.jpg'></image>
     </view>
-  </view>
+  </view> -->
 
   <view class='button-box'>
     <button session-from='矫正正畸正颌-{{data.name}}' open-type="contact" class='button'>立即咨询</button>

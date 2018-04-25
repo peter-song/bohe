@@ -20,12 +20,16 @@
 
 .image {
   height: 180px;
-  /* width: 100%; */
+  /* width: 335px; */
 }
 
 .preface {
   background: #fff;
   padding-top: 34px;
+}
+
+.imageBox{
+  text-align: center;
 }
 
 .item {

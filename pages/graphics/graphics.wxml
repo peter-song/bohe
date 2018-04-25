@@ -2,11 +2,13 @@
 <view class='root'>
 
   <view class='header'>
-    <text class='header-title'>三甲医院、正畸正颌专家、经验丰富</text>
+    <text class='header-title'>三甲医院、智齿专家、经验丰富</text>
   </view>
 
   <view class="preface">
-    <image class='image' src='../../assets/graphics/banner.jpeg'></image>
+    <view class='imageBox'>
+      <image class='image' src='../../assets/graphics/banner.jpeg'></image>
+    </view>
   </view>
 
   <view class='item'>
@@ -18,27 +20,39 @@
     </view>
     <view class='sub-title'>
       <text class='text'>智齿可以引起牙根吸收，废掉你的第二磨牙。</text>
-      <image class='image' src='../../assets/graphics/ts1.jpg'></image>
+      <view class='imageBox'>
+        <image class='image' src='../../assets/graphics/ts1.jpg'></image>
+      </view>
     </view>
     <view class='sub-title'>
       <text class='text'>智齿牙骨质增生，可以引起牙根肥大，越晚可能越不好拔。</text>
-      <image class='image' src='../../assets/graphics/ts2.jpg'></image>
+      <view class='imageBox'>
+        <image class='image' src='../../assets/graphics/ts2.jpg'></image>
+      </view>
     </view>
     <view class='sub-title'>
       <text class='text'>智齿可以引起颌骨的萌出性囊肿，破坏颌骨，严重情况可能需要截骨。</text>
-      <image class='image' src='../../assets/graphics/ts3.jpg'></image>
+      <view class='imageBox'>
+        <image class='image' src='../../assets/graphics/ts3.jpg'></image>
+      </view>
     </view>
     <view class='sub-title'>
       <text class='text'>智齿变成残根残冠，引起慢性根尖周炎，进而引起颌骨骨髓炎，这个可是需要住院手术，刮骨疗伤的。</text>
-      <image class='image' src='../../assets/graphics/ts4.jpg'></image>
+      <view class='imageBox'>
+        <image class='image' src='../../assets/graphics/ts4.jpg'></image>
+      </view>
     </view>
     <view class='sub-title'>
       <text class='text'>智齿会引起邻牙牙槽骨的吸收，正常邻牙可能过早松动脱落。</text>
-      <image class='image' src='../../assets/graphics/ts5.jpg'></image>
+      <view class='imageBox'>
+        <image class='image' src='../../assets/graphics/ts5.jpg'></image>
+      </view>
     </view>
     <view class='sub-title'>
       <text class='text'>智齿造成的卫生死角难清理，容易引起邻牙的龋坏。</text>
-      <image class='image' src='../../assets/graphics/ts6.jpg'></image>
+      <view class='imageBox'>
+        <image class='image' src='../../assets/graphics/ts6.jpg'></image>
+      </view>
     </view>
     <view class='content-line'>
       如果你的智齿经过检查，还没有出现上面的症状，就可以再观察一下，视情况而定。

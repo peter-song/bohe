@@ -95,8 +95,8 @@
 }
 
 .skill {
-  font-size: 13px;
-  color: #cbcbcb;
+  font-size: 12px;
+  color: #a1a1a1;
   background-color: #f4f4f4;
   padding: 4px 8px;
   margin: 12px 0 8px 0;
@@ -131,7 +131,7 @@
 }
 
 .button {
-  background-color: #4f7878;
+  background-color: #065C5A;
   color: #fff;
   font-size: 13px;
   padding: 8px 0;

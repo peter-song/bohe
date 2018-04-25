@@ -15,8 +15,8 @@ page{
 
 .box{
   background: #FFF;
-  border-bottom: 1px solid #E4E4E4;
-  border-top: 1px solid #E4E4E4;
+  /* border-bottom: 1px solid #E4E4E4; */
+  /* border-top: 1px solid #E4E4E4; */
   padding : 8px 0;
   margin-bottom: 8px;
 }

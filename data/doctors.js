@@ -22,7 +22,7 @@ export default [
   {
     "id": 46,
     "name": "葛娜",
-    "yearService": "11",
+    "yearService": "15",
     "caseNum": 2000,
     "hardCaseNum": 800,
     "caseTitle": "正畸案例",
@@ -32,7 +32,7 @@ export default [
   {
     "id": 12,
     "name": "苏家增",
-    "yearService": "5",
+    "yearService": "10",
     "caseNum": 1500,
     "hardCaseNum": 800,
     "caseTitle": "正畸案例",
