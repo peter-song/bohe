@@ -1,5 +1,5 @@
 <!--pages/doctors/doctors.wxml-->
-<view wx:if="{{!loading}}">
+<view wx:if="{{!loading}}" class='root'>
   <view class='list-box'>
     <navigator url="../detail/detail?id={{item.id}}" wx:for="{{list}}" wx:key="unique" class='doctor-item'>
       <image class='avatar' mode='scaleToFill' src='{{item.photo}}'></image>
@@ -17,9 +17,30 @@
         </view> -->
         <view class='sub-title'>从业 {{item.yearService}} 年</view>
         <view class='case-button'>
-          <button class='text' catchtap='_consult' id='{{item.id}}'>咨询</button>
+          <button session-from='矫正正畸正颌-{{item.name}}' open-type="contact" catchtap='_consult' class='text'>咨询</button>
         </view>
       </view>
     </navigator>
   </view>
+
+  <view class='tabs'>
+    <view class='tab'>
+      <navigator url='../graphics/graphics'>
+        图说智齿
+        <text class='line'>|</text>
+      </navigator>
+    </view>
+    <view class='tab active'>
+      <navigator url='../doctors/doctors'>
+        医生团队
+        <text class='line'>|</text>
+      </navigator>  
+    </view>
+    <view class='tab'>
+      <navigator url='../scheme/scheme'>
+        薄荷优势
+      </navigator>
+    </view>
+  </view>
+
 </view>

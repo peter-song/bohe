@@ -2,7 +2,6 @@ export default [
   {
     "id": 20,
     "name": "南哲",
-    "photo": "../../assets/jiangruoping.jpg",
     "yearService": "12",
     "caseNum": 5000,
     "hardCaseNum": 3000,
@@ -43,7 +42,6 @@ export default [
   {
     "id": 1,
     "name": "张智勇",
-    "photo": "../../assets/wangxiaoxia.jpeg",
     "yearService": "17",
     "caseNum": 5000,
     "hardCaseNum": 2000,

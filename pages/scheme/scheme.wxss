@@ -1,6 +1,7 @@
 /* pages/scheme/scheme.wxss */
 .root {
   padding: 16px;
+  padding-bottom: 70px;
 }
 
 .header {
@@ -19,54 +20,59 @@
   margin: 8px auto;
 }
 
-.box {
+.info {
   background: #fff;
-  margin-top: 16px;
   padding: 0 16px 16px;
   border-radius: 10px;
 }
 
-.box .title {
+.info .title {
   color: #065c5a;
   font-size: 14px;
   text-align: center;
   padding: 16px;
 }
 
-.box .text {
+.info .about {
+  color: #666;
+  font-size: 13px;
+  letter-spacing:2px;
+}
+
+.info .text {
   color: #666;
   font-size: 12px;
   display: block;
 }
 
-.box .imageBox {
+.info .imageBox {
   display: flex;
   align-items: center;
 }
 
-.box .imageBox .item {
+.info .imageBox .item {
   flex: 1;
   display: flex;
   align-content: center;
   justify-content: center;
 }
 
-.box .image {
+.info .image {
   width: 100px;
   height: 80px;
 }
 
-.box .line {
+.info .line {
   height: 60px;
   width: 1px;
-  background: #666;
+  background: rgb(242, 242, 242);
 }
 
-.box .contentBox {
+.info .contentBox {
   display: flex;
 }
 
-.box .contentBox .item {
+.info .contentBox .item {
   flex: 1;
   text-align: center;
   padding: 8px 4px 4px;

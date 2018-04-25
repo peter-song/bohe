@@ -26,3 +26,39 @@ page{
   height: 70px;
   border-radius: 50%; 
 }
+
+.tabs {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid #aeaeae;
+}
+
+.tabs .tab {
+  border: none;
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  border-radius: 0;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  top: -1px;
+  font-size: 14px;
+  line-height: 2.55555556;
+}
+
+.tabs .tab.active {
+  border-top: 1px solid #065c5a;
+  color: #065c5a;
+}
+
+.tabs .tab .line {
+  position: absolute;
+  right: 0;
+  color: #aeaeae;
+}

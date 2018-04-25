@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/graphics/graphics",
     "pages/scheme/scheme",
     "pages/doctors/doctors",
-    "pages/graphics/graphics",
     "pages/index/index",
     "pages/logs/logs",
     "pages/detail/detail"
@@ -12,22 +12,5 @@
     "navigationBarBackgroundColor": "#065C5A",
     "navigationBarTitleText": "薄荷口腔-智齿",
     "navigationBarTextStyle": "white"
-  },
-  "tabBar": {
-    "selectedColor": "#065C5A",
-    "list": [
-      {
-        "pagePath": "pages/graphics/graphics",
-        "text": "图说智齿"
-      },
-      {
-        "pagePath": "pages/doctors/doctors",
-        "text": "医生团队"
-      },
-      {
-        "pagePath": "pages/scheme/scheme",
-        "text": "薄荷方案"
-      }
-    ]
   }
 }

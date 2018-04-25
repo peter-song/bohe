@@ -1,5 +1,9 @@
 /* pages/doctors/doctors.wxss */
 
+.root {
+  padding-bottom: 50px;
+}
+
 .list-box {
   height: calc(100vh-30px);
   width: 100%;

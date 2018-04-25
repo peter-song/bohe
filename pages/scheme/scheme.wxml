@@ -6,22 +6,22 @@
     <text class='line'></text>
   </view>
 
-  <view class='box'>
+  <view class='info' style='margin-top: 16px;'>
     <view class='title'>关于我们</view>
-    <view class='text'>薄荷口腔是中国首家纯三甲医院口腔医师多点执业的预约和管理平台。平台荟聚北大口腔等权威三甲口腔医院优质口腔专科医生近千名。并精选高端口腔诊所深度合作，门店覆盖北京热门商圈，同时自建管理系统——微信端为用户提供咨询实时回复、快捷预约、精准匹配适合的口腔专业医生，云端电子图文病历永久储存；免挂号、无需排队到店即诊，全程陪诊，诊后贴心呵护，私人口腔健康管家闭环式服务。</view>
+    <view class='about'>薄荷口腔是中国首家纯三甲医院口腔医师多点执业的预约和管理平台。平台荟聚北大口腔等权威三甲口腔医院优质口腔专科医生近千名。并精选高端口腔诊所深度合作，门店覆盖北京热门商圈，同时自建管理系统——微信端为用户提供咨询实时回复、快捷预约、精准匹配适合的口腔专业医生，云端电子图文病历永久储存；免挂号、无需排队到店即诊，全程陪诊，诊后贴心呵护，私人口腔健康管家闭环式服务。</view>
   </view>
 
-  <view class='box'>
+  <view class='info' style='margin-top: 16px;'>
     
-    <view class='title'>优质医疗资源</view>
+    <view class='title'>• 优质医疗资源 •</view>
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+        <image class='image' src='../../assets/scheme/yisheng1.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+        <image class='image' src='../../assets/scheme/yisheng2.jpg'></image>
       </view>
     </view>
 
@@ -40,17 +40,17 @@
 
   </view>
 
-   <view class='box'>
+   <view class='info'>
     
-    <view class='title'>个性化手术设计</view>
+    <view class='title'>• 个性化手术设计 •</view>
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+        <image class='image' src='../../assets/scheme/shoushu1.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+        <image class='image' src='../../assets/scheme/shoushu2.jpg'></image>
       </view>
     </view>
 
@@ -67,17 +67,17 @@
 
   </view>
 
-   <view class='box'>
+   <view class='info'>
     
-    <view class='title'>最有抗生素使用方案</view>
+    <view class='title'>• 最有抗生素使用方案 •</view>
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+        <image class='image' src='../../assets/scheme/kangshengsu1.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+        <image class='image' src='../../assets/scheme/kangshengsu2.jpg'></image>
       </view>
     </view>
 
@@ -94,17 +94,17 @@
 
   </view>
 
-   <view class='box'>
+   <view class='info'>
     
-    <view class='title'>精准量化手术时间</view>
+    <view class='title'>• 精准量化手术时间 •</view>
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+        <image class='image' src='../../assets/scheme/time1.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+        <image class='image' src='../../assets/scheme/time2.jpg'></image>
       </view>
     </view>
 
@@ -123,17 +123,17 @@
 
   </view>
 
-   <view class='box'>
+   <view class='info'>
     
-    <view class='title'>术后护理 专业及时</view>
+    <view class='title'>• 术后护理 专业及时 •</view>
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+        <image class='image' src='../../assets/scheme/huli1.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+        <image class='image' src='../../assets/scheme/huli2.jpg'></image>
       </view>
     </view>
 
@@ -148,17 +148,17 @@
 
   </view>
 
-   <view class='box'>
+   <view class='info'>
     
-    <view class='title'>私人管家温馨陪伴</view>
+    <view class='title'>• 私人管家温馨陪伴 •</view>
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+        <image class='image' src='../../assets/scheme/guanjia1.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+        <image class='image' src='../../assets/scheme/guanjia2.jpg'></image>
       </view>
     </view>
 
@@ -168,23 +168,23 @@
         <text class='text'>全程陪诊</text>
       </view>
       <view class='item'>
-        <view><text class='text'>肚子就诊</text></view>
+        <text class='text'>肚子就诊</text>
       </view>
     </view>
 
   </view>
 
-   <view class='box'>
+   <view class='info'>
     
-    <view class='title'>智齿退休也精彩</view>
+    <view class='title'>• 智齿退休也精彩 •</view>
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/jiangruoping.jpg'></image>
+        <image class='image' src='../../assets/scheme/zhichi1.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/wangxiaoxia.jpeg'></image>
+        <image class='image' src='../../assets/scheme/zhichi2.jpg'></image>
       </view>
     </view>
 
@@ -194,10 +194,30 @@
         <text class='text'>高端人牙珠宝定制</text>
       </view>
       <view class='item'>
-        <view><text class='text'>视若鸡肋随意处理</text></view>  
+        <text class='text'>视若鸡肋随意处理</text>
       </view>
     </view>
 
+  </view>
+
+  <view class='tabs'>
+    <view class='tab'>
+      <navigator url='../graphics/graphics'>
+        图说智齿
+        <text class='line'>|</text>
+      </navigator>
+    </view>
+    <view class='tab'>
+      <navigator url='../doctors/doctors'>
+        医生团队
+        <text class='line'>|</text>
+      </navigator>
+    </view>
+    <view class='tab active'>
+      <navigator url='../scheme/scheme'>
+        薄荷优势
+      </navigator>
+    </view>
   </view>
 
 </view>
