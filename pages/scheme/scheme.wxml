@@ -17,23 +17,23 @@
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/yisheng1.jpg'></image>
+        <image class='image' src='../../assets/scheme/yisheng2.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/yisheng2.jpg'></image>
+        <image class='image' src='../../assets/scheme/yisheng1.jpg'></image>
       </view>
     </view>
 
     <view class='contentBox'>
       <view class='item'>
+        <text class='text'>私立诊所牙医</text>
+        <text class='text'>背景资质未知</text>
+      </view>
+      <view class='item'>
         <text class='text'>最顶尖口腔外科医生</text>
         <text class='text'>平均智齿拔除</text>
         <text class='text'>5000-10000例以上</text>
-      </view>
-      <view class='item'>
-        <text class='text'>私立诊所牙医</text>
-        <text class='text'>背景资质未知</text>
       </view>
     </view>
 
@@ -45,22 +45,22 @@
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/shoushu1.jpg'></image>
+        <image class='image' src='../../assets/scheme/shoushu2.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/shoushu2.jpg'></image>
+        <image class='image' src='../../assets/scheme/shoushu1.jpg'></image>
       </view>
     </view>
 
     <view class='contentBox'>
       <view class='item'>
-        <text class='text'>最大限度降低手术创伤</text>
-        <text class='text'>手术时间短</text>
-      </view>
-      <view class='item'>
         <text class='text'>手术创伤大</text>
         <text class='text'>手术时间长</text>
+      </view>
+      <view class='item'>
+        <text class='text'>最大限度降低手术创伤</text>
+        <text class='text'>手术时间短</text>
       </view>
     </view>
 
@@ -72,22 +72,22 @@
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/kangshengsu1.jpg'></image>
+        <image class='image' src='../../assets/scheme/kangshengsu2.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/kangshengsu2.jpg'></image>
+        <image class='image' src='../../assets/scheme/kangshengsu1.jpg'></image>
       </view>
     </view>
 
     <view class='contentBox'>
       <view class='item'>
-        <text class='text'>术前30分钟</text>
-        <text class='text'>服用抗生素</text>
-      </view>
-      <view class='item'>
         <text class='text'>无医学证据支持</text>
         <text class='text'>滥用抗生素</text>
+      </view>
+      <view class='item'>
+        <text class='text'>术前30分钟</text>
+        <text class='text'>服用抗生素</text>
       </view>
     </view>
 
@@ -99,23 +99,23 @@
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/time1.jpg'></image>
+        <image class='image' src='../../assets/scheme/time2.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/time2.jpg'></image>
+        <image class='image' src='../../assets/scheme/time1.jpg'></image>
       </view>
     </view>
 
     <view class='contentBox'>
       <view class='item'>
+        <text class='text'>拔除时间难以精准量化</text>
+        <text class='text'>复杂案例结果未知</text>
+      </view>
+      <view class='item'>
         <text class='text'>一般难度3分钟内拔除</text>
         <text class='text'>中等难度20分钟内拔除</text>
         <text class='text'>复杂难度45分钟内拔除</text>
-      </view>
-      <view class='item'>
-        <text class='text'>拔除时间难以精准量化</text>
-        <text class='text'>复杂案例结果未知</text>
       </view>
     </view>
 
@@ -127,20 +127,20 @@
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/huli1.jpg'></image>
+        <image class='image' src='../../assets/scheme/huli2.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/huli2.jpg'></image>
+        <image class='image' src='../../assets/scheme/huli1.jpg'></image>
       </view>
     </view>
 
     <view class='contentBox'>
       <view class='item'>
-        <text class='text'>及时冷敷缓解肿胀</text>
+        <text class='text'>简单止血处理</text>
       </view>
       <view class='item'>
-        <text class='text'>简单止血处理</text>
+        <text class='text'>及时冷敷缓解肿胀</text>
       </view>
     </view>
 
@@ -152,21 +152,21 @@
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/guanjia1.jpg'></image>
+        <image class='image' src='../../assets/scheme/guanjia2.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/guanjia2.jpg'></image>
+        <image class='image' src='../../assets/scheme/guanjia1.jpg'></image>
       </view>
     </view>
 
     <view class='contentBox'>
       <view class='item'>
-        <text class='text'>7*24小时在线咨询</text>
-        <text class='text'>全程陪诊</text>
+        <text class='text'>独自就诊</text>
       </view>
       <view class='item'>
-        <text class='text'>独自就诊</text>
+        <text class='text'>7*24小时在线咨询</text>
+        <text class='text'>全程陪诊</text>
       </view>
     </view>
 
@@ -178,21 +178,21 @@
 
     <view class='imageBox'>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/zhichi1.jpg'></image>
+        <image class='image' src='../../assets/scheme/zhichi2.jpg'></image>
       </view>
       <view class='line'></view>
       <view class='item'>
-        <image class='image' src='../../assets/scheme/zhichi2.jpg'></image>
+        <image class='image' src='../../assets/scheme/zhichi1.jpg'></image>
       </view>
     </view>
 
     <view class='contentBox'>
       <view class='item'>
-        <text class='text'>原生保存或者</text>
-        <text class='text'>高端人牙珠宝定制</text>
+        <text class='text'>视若鸡肋随意处理</text>
       </view>
       <view class='item'>
-        <text class='text'>视若鸡肋随意处理</text>
+        <text class='text'>原生保存或者</text>
+        <text class='text'>高端人牙珠宝定制</text>
       </view>
     </view>
 
