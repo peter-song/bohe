@@ -7,17 +7,17 @@ export default [
     "hardCaseNum": 3000,
     "caseTitle": "正畸案例",
     "education": "口腔医学博士",
-    "sort": -8,
+    "sort": -3,
   },
   {
     "id": 24,
     "name": "王智",
-    "yearService": "8",
+    "yearService": "11",
     "caseNum": 2500,
     "hardCaseNum": 1000,
     "caseTitle": "正畸案例",
     "education": "口腔医学博士",
-    "sort": -7,
+    "sort": -2,
   },
   {
     "id": 46,
@@ -27,7 +27,7 @@ export default [
     "hardCaseNum": 800,
     "caseTitle": "正畸案例",
     "education": "口腔医学博士",
-    "sort": -6
+    "sort": -4
   },
   {
     "id": 12,
@@ -37,7 +37,7 @@ export default [
     "hardCaseNum": 800,
     "caseTitle": "正畸案例",
     "education": "口腔颌面外科学博士",
-    "sort": -5
+    "sort": -1
   },
   {
     "id": 1,
@@ -47,6 +47,6 @@ export default [
     "hardCaseNum": 2000,
     "caseTitle": "正颌案例",
     "education": "口腔颌面外科博士",
-    "sort": -3,
+    "sort": -5,
   }
 ]

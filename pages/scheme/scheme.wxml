@@ -32,9 +32,8 @@
         <text class='text'>5000-10000例以上</text>
       </view>
       <view class='item'>
-        <text class='text'>普通牙医</text>
-        <text class='text'>平均仅有</text>
-        <text class='text'>1000-3000例</text>
+        <text class='text'>私立诊所牙医</text>
+        <text class='text'>背景资质未知</text>
       </view>
     </view>
 
@@ -115,9 +114,8 @@
         <text class='text'>复杂难度45分钟内拔除</text>
       </view>
       <view class='item'>
-        <text class='text'>一般难度15分钟内难拔除</text>
-        <text class='text'>中等难度60分钟内难拔除</text>
-        <text class='text'>复杂难度120分钟内难拔除</text>
+        <text class='text'>拔除时间难以精准量化</text>
+        <text class='text'>复杂案例结果未知</text>
       </view>
     </view>
 
