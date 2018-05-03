@@ -36,7 +36,7 @@ export default [
     "caseNum": 1500,
     "hardCaseNum": 800,
     "caseTitle": "正畸案例",
-    "education": "口腔颌面外科学博士",
+    "education": "口腔医学博士",
     "sort": -1
   },
   {
@@ -46,7 +46,7 @@ export default [
     "caseNum": 5000,
     "hardCaseNum": 2000,
     "caseTitle": "正颌案例",
-    "education": "口腔颌面外科博士",
+    "education": "口腔医学博士",
     "sort": -5,
   }
 ]
